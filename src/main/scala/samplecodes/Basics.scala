@@ -40,4 +40,3 @@ object Basics extends App {
   }
   println(s"Addition: ${addition(10,20)}")
 }
-
