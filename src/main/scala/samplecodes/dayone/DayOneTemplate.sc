@@ -26,3 +26,4 @@ Instructions:
 
 //task 09: Write task 02 as a function instead and call the function in the next line
 
+//optional task 10: list with a square of the input list01
