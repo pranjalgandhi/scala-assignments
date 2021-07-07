@@ -8,11 +8,11 @@ Instructions:
 5. Try doing things in single or as less number of lines as possible.
  */
 
-//task 01: Get the largest number
+//task 01: Get the largest number from two numbers
 
 //task 02: Get Square of a number and add with another number
 
-//task 03: Create a List list01 of 1 - 10
+//task 03: Create a List list01 from 1 to 10
 
 //task 04: add 11 to list01 at the end
 
