@@ -1,4 +1,3 @@
-println("Hello")
 /*
 Instructions:
 1. Write your code below the comment and click run. Results will be shown to your right.
@@ -8,42 +7,44 @@ Instructions:
 5. Try doing things in single or as less number of lines as possible.
  */
 
-//task 01: Get the largest number from two numbers
+var num1: Int = 5
+var num2: Int = 10
 
-val n1:Int = 10
-val n2: Int =20
-val result=(n1).max(n2)
+//task 01: Get the largest number from two numbers
+val result = (num1).max(num2)
+
 
 //task 02: Get Square of a number and add with another number
-val x:Int =5
-val y:Int =2
-val result= (x*x)+y
-println(result)
+val result = (num1*num1)+num2
+
 
 //task 03: Create a List list01 from 1 to 10
-val List01=List(1,2,3,4,5,6,7,8,9,10)
+val list01 = List.range(1,11,1)
 
-//or
-val List01 = List.range(1,11)
 
 //task 04: add 11 to list01 at the end
-val List02=List01 :+11
+val list02=list01:+11
+
 
 //task 05: add 0 to the beginning of the list in task 04
-val List03 = 0 +: List02
+val list03=0+:list02
+
 
 //task 06: Do task 03, 04, 05 in one line
-val List04 = 0 +: (List01) :+ 11
+val list04=0+:(List.range(1,11,1)):+11
 
 //task 07: concatenate list in task 03 and task 05
-val List05 = List.concat(List01,List03)
+val list05=List.concat(list01,list03)
 
 //task 08: reverse the list in task 06
-val List06 = List04.reverse
+val reversedList=list04.reverse
+
 
 //task 09: Write task 02 as a function instead and call the function in the next line
-def function(x : Int, y : Int)= (x*x)+y
-println(function(5,2))
+def squaring_and_adding(num1:Int,num2:Int):Int={
+  (num1*num1) + num2;
+}
+val result=squaring_and_adding(num1,num2)
 
 //optional task 10: list with a square of the input list01
-val square = List01.map(x=> x*x)
+val resultList=list01.map(num => num * num )
